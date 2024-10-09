@@ -1,5 +1,6 @@
 import java.util.Scanner;
-import entities.Rectangle.*;
+
+import rectangle.Rectangle.*;
 
 
 public class App {

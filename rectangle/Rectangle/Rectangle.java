@@ -1,4 +1,4 @@
-package entities.Rectangle;
+package rectangle.Rectangle;
 
 public class Rectangle {
     
