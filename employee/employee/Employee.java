@@ -10,13 +10,13 @@ public double netSalary (){
 }
 public void increaseSalary(double percentage){
      grossSalary += percentage / 100 * netSalary();
-     System.out.println(grossSalary);
+     
 }
 public String toString(){
      return name +
             String.format(", $ %.2f ", netSalary())
             + name +
-            String.format("$ ", increaseSalary());
+            String.format("$ ", grossSalary);
 }
 
 }

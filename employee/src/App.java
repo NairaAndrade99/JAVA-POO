@@ -17,11 +17,13 @@ public class App {
         System.out.println("Tax: ");
         employee.tax = sc.nextDouble();
 
-        System.out.println("Employee: ", employee);
+        System.out.println("Employee: " + employee);
 
         System.out.println("Wich percentage to increase salary ? ");
         double perce = sc.nextDouble();
         employee.increaseSalary(perce);
+
+        System.out.println("Employee: " + employee);
 
 
 
